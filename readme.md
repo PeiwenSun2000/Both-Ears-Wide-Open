@@ -34,9 +34,9 @@ Community Contribution: <a href='http://143.89.224.6:2436/'><img src='https://im
 
 ## Overall Structure
 
-*  Dataset: [Data instruction for BEWO](/data/peiwensun/project/sag/README.md)
-*  Inference: [Inference code for BEWO](/data/peiwensun/project/sag/README.md)
-*  ITD Evaluation: [Evaluation code for BEWO](/data/peiwensun/project/sag/README.md)
+*  Dataset: [Data instruction for BEWO](https://github.com/PeiwenSun2000/Both-Ears-Wide-Open/datasets/readme.md)
+*  Inference: [Inference code for BEWO](https://github.com/PeiwenSun2000/Both-Ears-Wide-Open/models/readme.md) (Coming soon.)
+*  ITD Evaluation: [Evaluation code for BEWO](https://github.com/PeiwenSun2000/Both-Ears-Wide-Open/evaluation/readme.md) (Coming soon.)
 
 ## BEWO-1M Dataset
 
