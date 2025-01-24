@@ -9,7 +9,7 @@ The official repo for Both Ears Wide Open: Towards Language-Driven Spatial Audio
 
 <div style='display:flex; gap: 0.25rem; '>
 Community Contribution: <a href='http://143.89.224.6:2436/'><img src='https://img.shields.io/badge/Gradio-Demo_nl-blue'></a><a href='http://143.89.224.6:2437/'><img src='https://img.shields.io/badge/Gradio-Demo_attr-blue'></a>
-<a href='https://github.com/PeiwenSun2000/Both-Ears-Wide-Open/datasets/readme.md'><img src='https://img.shields.io/badge/Dataset-BEWO--1M-green'></a>
+<a href='https://github.com/PeiwenSun2000/Both-Ears-Wide-Open/tree/main/datasets'><img src='https://img.shields.io/badge/Dataset-BEWO--1M-green'></a>
 <a href='todo'><img src='https://img.shields.io/badge/ModelScope-Checkpoint-blueviolet'></a>
 <a href='https://arxiv.org/abs/2410.10676'><img src='https://img.shields.io/badge/Paper-PDF-red'></a>
 </div>
@@ -25,7 +25,7 @@ Community Contribution: <a href='http://143.89.224.6:2436/'><img src='https://im
 
 ## 💥 News 💥
 
-[2025.01.24] Our preview version of BEWO-1M is released in <a href='https://github.com/PeiwenSun2000/Both-Ears-Wide-Open/datasets/readme.md'><img src='https://img.shields.io/badge/Dataset-BEWO--1M-green'></a> with instructions.
+[2025.01.24] Our preview version of BEWO-1M is released in <a href='https://github.com/PeiwenSun2000/Both-Ears-Wide-Open/tree/main/datasets'><img src='https://img.shields.io/badge/Dataset-BEWO--1M-green'></a> with instructions.
 
 [2025.01.23] Our paper is accepted by ICLR 2025! See you in Singapore.
 
@@ -34,9 +34,9 @@ Community Contribution: <a href='http://143.89.224.6:2436/'><img src='https://im
 
 ## Overall Structure
 
-*  Dataset: [Data instruction for BEWO](https://github.com/PeiwenSun2000/Both-Ears-Wide-Open/datasets/readme.md)
-*  Inference: [Inference code for BEWO](https://github.com/PeiwenSun2000/Both-Ears-Wide-Open/models/readme.md) (Coming soon.)
-*  ITD Evaluation: [Evaluation code for BEWO](https://github.com/PeiwenSun2000/Both-Ears-Wide-Open/evaluation/readme.md) (Coming soon.)
+*  Dataset: [Data instruction for BEWO](https://github.com/PeiwenSun2000/Both-Ears-Wide-Open/tree/main/datasets)
+*  Inference: [Inference code for BEWO](https://github.com/PeiwenSun2000/Both-Ears-Wide-Open/tree/main/models) (Coming soon.)
+*  ITD Evaluation: [Evaluation code for BEWO](https://github.com/PeiwenSun2000/Both-Ears-Wide-Open/tree/main/evaluations) (Coming soon.)
 
 ## BEWO-1M Dataset
 
@@ -48,7 +48,7 @@ To better facilitate the advancement of multimodal guided spatial audio generati
 
 Totally, we constructed 2.8k hours of training audio with more than 1M audio-text pairs and approximately 17 hours of validation data with 6.2k pairs.
 
-The full dataset of BEWO-1M can be find in here. <a href='https://github.com/PeiwenSun2000/Both-Ears-Wide-Open/datasets/readme.md'><img src='https://img.shields.io/badge/Dataset-BEWO--1M-green'></a>
+The full dataset of BEWO-1M can be find in here. <a href='https://github.com/PeiwenSun2000/Both-Ears-Wide-Open/tree/main/datasets'><img src='https://img.shields.io/badge/Dataset-BEWO--1M-green'></a>
 
 # Requirements
 
