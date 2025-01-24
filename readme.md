@@ -1,4 +1,4 @@
-# <img src=".assets/logo.jpg" width="10%"> <br>Both Ears Wide Open: Towards Language-Driven Spatial Audio Generation
+# <img src=".assets/logo.jpg" width="10%"> Both Ears Wide Open: Towards Language-Driven Spatial Audio Generation
 
 Keywords:
 ![Multi-Modal](https://img.shields.io/badge/Task-Multi--Modal-red)
