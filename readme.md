@@ -29,7 +29,7 @@ Community Contribution: <a href='http://143.89.224.6:2436/'><img src='https://im
 
 [2025.01.23] Our paper is accepted by ICLR 2025! See you in Singapore.
 
-[2024.10.14] Our initial paper is now accessible at https://arxiv.org/abs/2410.10676.
+[2024.10.14] Our initial paper is now accessible at <a href='https://arxiv.org/abs/2410.10676'><img src='https://img.shields.io/badge/Paper-PDF-red'></a>.
 
 
 ## Overall Structure
