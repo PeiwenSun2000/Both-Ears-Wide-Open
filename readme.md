@@ -3,7 +3,7 @@
 Keywords:
 ![Multi-Modal](https://img.shields.io/badge/Task-Multi--Modal-red)
 ![Text-to-Audio](https://img.shields.io/badge/Task-Text--to--Audio-red)
-![Mathematical Reasoning](https://img.shields.io/badge/Task-Spatial-Audio-red) 
+![Spatial Audio](https://img.shields.io/badge/Task-Spatial--Audio-red) 
 
 The official repo for Both Ears Wide Open: Towards Language-Driven Spatial Audio Generation
 
