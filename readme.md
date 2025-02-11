@@ -59,6 +59,14 @@ Development for the repo is done in Python 3.8.10
 
 This code base is adapted from [stable-audio-tools](https://github.com/Stability-AI/stable-audio-tools). Sincere thanks to the engineers for their great work.
 
+```
+# for inference
+
+cd models
+pip install -r requirements.txt
+```
+
+
 # Model Gallery
 
 | Model           | GDrive      | Detail                                            |
