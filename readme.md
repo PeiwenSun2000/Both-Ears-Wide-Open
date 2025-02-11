@@ -94,7 +94,7 @@ To generate audio from a text prompt using our pretrained model:
 cd models
 # feel free to reset seed and cfg_scale before inferencing
 python simple_generation.py --prompt "A dog is barking on the left." --device cuda:0
-
+python simple_generation.py  --prompt "a car is moving from left to right." --device cuda:0
 ```
 
 
