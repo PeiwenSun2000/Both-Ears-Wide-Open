@@ -105,7 +105,7 @@ To generate audio from a text prompt using our pretrained model:
 3. Place the model config at `/path/to/model_config_sim_mix.json`
 4. Run the following command:
 
-The GPT induction is used to generate the spatial attributes. We offer two models for you to choose. [GPT-4o](https://platform.openai.com/docs/models/gpt-4o) and [DeepSeekv3](https://www.deepseek.com/). Since the DeepSeek model is much cheaper and opensourced, using it can be considered as a cost-effective solution.
+The GPT induction is used to generate the spatial attributes. We offer two models for you to choose. [GPT-4o](https://platform.openai.com/docs/models/gpt-4o) and [DeepSeekv3](https://www.deepseek.com/). Since the DeepSeek model is much cheaper and opensourced, using it can be considered as a cost-effective solution. The default setting is "coarse" for the balance of quality and control.
 
 Using GPT induction:
 ```
