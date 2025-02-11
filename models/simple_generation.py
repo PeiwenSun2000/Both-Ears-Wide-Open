@@ -34,7 +34,7 @@ def load_model(model_config=None, model_ckpt_path=None, pretrained_name=None, de
     print(f"Done loading model")
     return model, model_config
 
-def generate_audio(prompt, model, device, sample_rate, sample_size):
+def generate_audio(prompt, model, device):
     resampler = torchaudio.transforms.Resample(orig_freq=44100, new_freq=16000) 
     conditioning = [{"prompt": prompt, "seconds_start": 0, "seconds_total": 10}]
 
@@ -82,5 +82,4 @@ if __name__ == "__main__":
         with open(model_config_path) as f:
             model_config = json.load(f)
         model, model_config = load_model(model_config=model_config, model_ckpt_path=model_ckpt_path, device=args.device)
-
-    generate_audio(args.prompt, model, args.device, sample_rate, sample_size)
+    generate_audio(args.prompt, model, args.device)

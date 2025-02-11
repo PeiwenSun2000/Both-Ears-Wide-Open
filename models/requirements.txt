@@ -47,9 +47,10 @@ cymem==2.0.8
 dctorch==0.1.2
 decorator==4.4.2
 deepspeed==0.14.2
+diffusers==0.26.0
 descript-audio-codec==1.0.0
 descript-audiotools==0.7.2
-diffusers==0.26.0
+importlib_resources
 distro==1.9.0
 dnspython==2.6.1
 docker-pycreds==0.4.0
@@ -70,7 +71,6 @@ fastcore==1.5.42
 ffmpy==0.3.2
 filelock==3.14.0
 fire==0.6.0
-flash-attn==2.5.9.post1
 flatbuffers==24.3.25
 flatten-dict==0.4.2
 fonttools==4.52.4
@@ -103,9 +103,6 @@ humanize==4.10.0
 idna==3.7
 imageio==2.34.1
 imageio-ffmpeg==0.5.0
-importlib==1.0.4
-importlib-resources==5.12.0
-importlib_metadata==7.1.0
 iopath==0.1.10
 ipdb==0.13.13
 ipython==8.12.3
@@ -257,7 +254,6 @@ spacy-loggers==1.0.5
 speechtokenizer==1.0.1
 srsly==2.4.8
 ssr-eval==0.0.7
-stable-audio-tools @ file:///data/peiwensun/project/sag
 stack-data==0.6.3
 starlette==0.37.2
 sympy==1.12.1

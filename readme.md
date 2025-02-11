@@ -63,7 +63,9 @@ This code base is adapted from [stable-audio-tools](https://github.com/Stability
 # for inference
 
 cd models
-pip install -r requirements.txt
+conda create -n "bewo" python=3.9
+conda activate bewo
+pip install -r requirements.txt --no-dependencies
 ```
 
 
@@ -90,7 +92,7 @@ To generate audio from a text prompt using our pretrained model:
 
 ```
 cd models
-
+# feel free to reset seed and cfg_scale before inferencing
 python simple_generation.py --prompt "A dog is barking on the left." --device cuda:0
 
 ```
@@ -110,7 +112,7 @@ The GPT induction is used to generate the spatial attributes. We offer two model
 Using GPT induction:
 ```
 cd models
-
+# feel free to reset seed and cfg_scale before inferencing
 # better with BEWO_mix.ckpt
 python gpt_induction.py --prompt "A dog is barking on the left." --device cuda:0
 python gpt_induction.py  --prompt "a dog is barking and running from left to right." --device cuda:0
@@ -121,7 +123,7 @@ We also provide a manual setting for you to manually set the initial and final d
 Using manual setting:
 ```
 cd models
-
+# feel free to reset seed and cfg_scale before inferencing
 # better with BEWO_mix.ckpt
 python gpt_induction.py --prompt "a dog is barking." --device cuda:0 --manual True --init_direction 1 --final_direction 1 --moving 0
 python gpt_induction.py --prompt "a dog is barking." --device cuda:0 --manual True --init_direction 1 --final_direction 5 --moving 1
