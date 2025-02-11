@@ -15,15 +15,17 @@ Community Contribution: <a href='http://143.89.224.6:2436/'><img src='https://im
 </div>
 
 ## Outlines
-- 💥 News 💥
-- 👀 Overall Structure
-- 📊 BEWO-1M Dataset
-- 🏆 Usage
-- 📝 Evaluation
-- 📜 License
-- 🤝 Contributors
+- [💥 News 💥](https://github.com/We-Math/We-Math/blob/main/README.md#-news-)
+- [👀 About BEWO-1M](https://github.com/We-Math/We-Math/blob/main/README.md#-about-we-math)
+- [📊 BEWO-1M Dataset](https://github.com/We-Math/We-Math/blob/main/README.md#-we-math-dataset)
+- [🏆 Usage](https://github.com/We-Math/We-Math/blob/main/README.md#-leaderboard-on-we-math-)
+- [📝 Evaluation](https://github.com/We-Math/We-Math/blob/main/README.md#-evaluation-piplines-on-we-math)
+- [📜 License](https://github.com/We-Math/We-Math/blob/main/README.md#-license)
+- [🤝 Contributors](https://github.com/We-Math/We-Math/blob/main/README.md#-contributors)
 
 ## 💥 News 💥
+
+[2025.02.11] Our inference code for T2A is released with instructions.
 
 [2025.01.24] Our preview version of BEWO-1M is released in <a href='https://github.com/PeiwenSun2000/Both-Ears-Wide-Open/tree/main/datasets'><img src='https://img.shields.io/badge/Dataset-BEWO--1M-green'></a> with instructions.
 
@@ -31,11 +33,10 @@ Community Contribution: <a href='http://143.89.224.6:2436/'><img src='https://im
 
 [2024.10.14] Our initial paper is now accessible at <a href='https://arxiv.org/abs/2410.10676'><img src='https://img.shields.io/badge/Paper-PDF-red'></a>.
 
-
 ## Overall Structure
 
 *  Dataset: [Data instruction for BEWO](https://github.com/PeiwenSun2000/Both-Ears-Wide-Open/tree/main/datasets)
-*  Inference: [Inference code for BEWO](https://github.com/PeiwenSun2000/Both-Ears-Wide-Open/tree/main/models) (Coming soon.)
+*  Inference: [Inference code for BEWO](https://github.com/PeiwenSun2000/Both-Ears-Wide-Open/tree/main/models)
 *  ITD Evaluation: [Evaluation code for BEWO](https://github.com/PeiwenSun2000/Both-Ears-Wide-Open/tree/main/evaluations) (Coming soon.)
 
 ## BEWO-1M Dataset
@@ -60,13 +61,11 @@ This code base is adapted from [stable-audio-tools](https://github.com/Stability
 
 # Model Gallery
 
-Coming Soon...
-
-<!-- | Model           | GDrive   | Baidu    | Detail                                            |
-|-----------------|----------|----------|---------------------------------------------------|
-| BEWO_nl.ckpt    | [link]() | [link]() | Training with natural language only               |
-| BEWO_attr.ckpt | [link]() | [link]() | Training with induction attributes only           |
-| BEWO_mix.ckpt   | To Be Updated | To Be Updated | Training with both natural language and induction | -->
+| Model           | GDrive      | Detail                                            |
+|-----------------|----------|---------------------------------------------------|
+| BEWO_nl.ckpt    | [link](https://drive.google.com/file/d/1mSL6OWsobZJppJA7flCbvmMMi2N_y7wc/view?usp=sharing) |Training with natural language only (with direction description in the prompt)               |
+| BEWO_attri.ckpt | [link](https://drive.google.com/file/d/1tsOkGIL6Bgnp_m9PQA0t-I4fbDwhlfd-/view?usp=sharing) |Training with induction attributes only (no direction description in the prompt)           |
+| BEWO_mix.ckpt   | [link](https://drive.google.com/file/d/1KupndVdBAHE0oC7RAJO7d-YKLBCw8a1M/view?usp=sharing) |Training with both natural language and attributes (whatever in the prompt) |
 
 # Usage
 
@@ -76,12 +75,14 @@ Coming Soon...
 To generate audio from a text prompt using our pretrained model:
 
 1. Download the pretrained model and config files from [MODEL_LINK]
-2. Place the model checkpoint at `/path/to/final.ckpt` 
+2. Place the model checkpoint at `/path/to/BEWO_nl.ckpt` 
 3. Place the model config at `/path/to/model_config_sim.json`
 4. Run the following command:
 
 
 ```
+cd models
+
 python simple_generation.py --prompt "A dog is barking on the left." --device cuda:0
 
 ```
@@ -92,22 +93,28 @@ python simple_generation.py --prompt "A dog is barking on the left." --device cu
 To generate audio from a text prompt using our pretrained model:
 
 1. Download the pretrained model and config files from [MODEL_LINK]
-2. Place the model checkpoint at `/path/to/final_c2f.ckpt` 
-3. Place the model config at `/path/to/model_config_sim_c2f.json`
+2. Place the model checkpoint at `/path/to/BEWO_mix.ckpt` or `/path/to/BEWO_attri.ckpt` 
+3. Place the model config at `/path/to/model_config_sim_mix.json`
 4. Run the following command:
 
 The GPT induction is used to generate the spatial attributes. We offer two models for you to choose. [GPT-4o](https://platform.openai.com/docs/models/gpt-4o) and [DeepSeekv3](https://www.deepseek.com/). Since the DeepSeek model is much cheaper and opensourced, using it can be considered as a cost-effective solution.
 
 Using GPT induction:
 ```
+cd models
+
+# better with BEWO_mix.ckpt
 python gpt_induction.py --prompt "A dog is barking on the left." --device cuda:0
 python gpt_induction.py  --prompt "a dog is barking and running from left to right." --device cuda:0
 ```
 
-We also provide a manual setting for you to manually set the initial and final direction and moving state. The direction is from 1 (left) to 5 (right). The moving state is from 0 (no moving) to 3 (fast moving).
+We also provide a manual setting for you to manually set the initial and final direction and moving state. Direction is from 1 (left) to 5 (right). Moving state is from 0 (no moving) to 3 (fast moving).
 
 Using manual setting:
 ```
+cd models
+
+# better with BEWO_mix.ckpt
 python gpt_induction.py --prompt "a dog is barking." --device cuda:0 --manual True --init_direction 1 --final_direction 1 --moving 0
 python gpt_induction.py --prompt "a dog is barking." --device cuda:0 --manual True --init_direction 1 --final_direction 5 --moving 1
 ```
@@ -115,7 +122,7 @@ python gpt_induction.py --prompt "a dog is barking." --device cuda:0 --manual Tr
 
 # Reference
 
-If you find this repo useful, please cite our papers:
+If you find this repo useful, please cite the our papers:
 
 ```
 @article{sun2024both,
