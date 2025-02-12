@@ -55,7 +55,7 @@ The full dataset of BEWO-1M can be find in here. <a href='https://github.com/Pei
 
 Requires PyTorch 2.0 or later for Flash Attention support
 
-Development for the repo is done in Python 3.8.10
+Development for the repo is done in Python 3.9 or 3.8.10
 
 This code base is adapted from [stable-audio-tools](https://github.com/Stability-AI/stable-audio-tools). Sincere thanks to the engineers for their great work.
 
@@ -85,8 +85,8 @@ pip install -r requirements.txt --no-dependencies
 To generate audio from a text prompt using our pretrained model:
 
 1. Download the pretrained model and config files from [MODEL_LINK]
-2. Place the model checkpoint at `/path/to/BEWO_nl.ckpt` 
-3. Place the model config at `/path/to/model_config_sim.json`
+2. Place the model checkpoint at `./bewo_config/BEWO_nl.ckpt` 
+3. Place the model config at `./bewo_config/model_config_sim.json`
 4. Run the following command:
 
 
@@ -103,8 +103,8 @@ python simple_generation.py  --prompt "a car is moving from left to right." --de
 To generate audio from a text prompt using our pretrained model:
 
 1. Download the pretrained model and config files from [MODEL_LINK]
-2. Place the model checkpoint at `/path/to/BEWO_mix.ckpt` or `/path/to/BEWO_attri.ckpt` 
-3. Place the model config at `/path/to/model_config_sim_mix.json`
+2. Place the model checkpoint at `./bewo_config/BEWO_mix.ckpt` or `/path/to/BEWO_attri.ckpt` 
+3. Place the model config at `./bewo_config/model_config_sim_mix.json`
 4. Run the following command:
 
 The GPT induction is used to generate the spatial attributes. We offer two models for you to choose. [GPT-4o](https://platform.openai.com/docs/models/gpt-4o) and [DeepSeekv3](https://www.deepseek.com/). Since the DeepSeek model is much cheaper and opensourced, using it can be considered as a cost-effective solution. The default setting is "coarse" for the balance of quality and control.
