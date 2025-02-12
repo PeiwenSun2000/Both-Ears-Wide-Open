@@ -103,11 +103,11 @@ python simple_generation.py  --prompt "a car is moving from left to right." --de
 To generate audio from a text prompt using our pretrained model:
 
 1. Download the pretrained model and config files from [MODEL_LINK]
-2. Place the model checkpoint at `./bewo_config/BEWO_mix.ckpt` or `/path/to/BEWO_attri.ckpt` 
+2. Place the model checkpoint at `./bewo_config/BEWO_mix.ckpt` or `./bewo_config/BEWO_attri.ckpt` 
 3. Place the model config at `./bewo_config/model_config_sim_mix.json`
 4. Run the following command:
 
-The GPT induction is used to generate the spatial attributes. We offer two models for you to choose. [GPT-4o](https://platform.openai.com/docs/models/gpt-4o) and [DeepSeekv3](https://www.deepseek.com/). Since the DeepSeek model is much cheaper and opensourced, using it can be considered as a cost-effective solution. The default setting is "coarse" for the balance of quality and control.
+The GPT induction is used to generate the spatial attributes. We offer two models for you to choose. [GPT-4o](https://platform.openai.com/docs/models/gpt-4o) and [DeepSeekv3](https://www.deepseek.com/). Since the DeepSeek model is much cheaper and open-sourced, using it can be considered as a cost-effective solution. The default setting is "coarse" for the balance of quality and control.
 
 Using GPT induction:
 ```
@@ -118,7 +118,7 @@ python gpt_induction.py --prompt "A dog is barking on the left." --device cuda:0
 python gpt_induction.py  --prompt "a dog is barking and running from left to right." --device cuda:0
 ```
 
-We also provide a manual setting for you to manually set the initial and final direction and moving state. Direction is from 1 (left) to 5 (right). Moving state is from 0 (no moving) to 3 (fast moving).
+We also provide a manual setting for you to manually set the initial and final direction and moving state. The direction is from 1 (left) to 5 (right). The moving state is from 0 (no moving) to 3 (fast moving).
 
 Using manual setting:
 ```
@@ -132,7 +132,7 @@ python gpt_induction.py --prompt "a dog is barking." --device cuda:0 --manual Tr
 
 # Reference
 
-If you find this repo useful, please cite the our papers:
+If you find this repo useful, please cite our papers:
 
 ```
 @article{sun2024both,
