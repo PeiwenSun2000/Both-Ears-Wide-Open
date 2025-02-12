@@ -15,13 +15,13 @@ Community Contribution: <a href='http://143.89.224.6:2436/'><img src='https://im
 </div>
 
 ## Outlines
-- [💥 News 💥](https://github.com/We-Math/We-Math/blob/main/README.md#-news-)
-- [👀 About BEWO-1M](https://github.com/We-Math/We-Math/blob/main/README.md#-about-we-math)
-- [📊 BEWO-1M Dataset](https://github.com/We-Math/We-Math/blob/main/README.md#-we-math-dataset)
-- [🏆 Usage](https://github.com/We-Math/We-Math/blob/main/README.md#-leaderboard-on-we-math-)
-- [📝 Evaluation](https://github.com/We-Math/We-Math/blob/main/README.md#-evaluation-piplines-on-we-math)
-- [📜 License](https://github.com/We-Math/We-Math/blob/main/README.md#-license)
-- [🤝 Contributors](https://github.com/We-Math/We-Math/blob/main/README.md#-contributors)
+- [💥 News 💥]()
+- [👀 About BEWO-1M]()
+- [📊 BEWO-1M Dataset]()
+- [🏆 Usage]()
+- [📝 Evaluation]()
+- [📜 License]()
+- [🤝 Contributors]()
 
 ## 💥 News 💥
 
