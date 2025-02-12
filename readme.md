@@ -5,7 +5,7 @@ Keywords:
 ![Text-to-Audio](https://img.shields.io/badge/Task-Text--to--Audio-red)
 ![Spatial Audio](https://img.shields.io/badge/Task-Spatial--Audio-red) 
 
-The official repo for Both Ears Wide Open: Towards Language-Driven Spatial Audio Generation
+The official repo for Both Ears Wide Open: Towards Language-Driven Spatial Audio Generation. Our paper has been selected as the **spotlight** in ICLR 2025.
 
 <div style='display:flex; gap: 0.25rem; '>
 Community Contribution: <a href='http://143.89.224.6:2436/'><img src='https://img.shields.io/badge/Gradio-Demo_nl-blue'></a><a href='http://143.89.224.6:2437/'><img src='https://img.shields.io/badge/Gradio-Demo_attr-blue'></a>
@@ -25,7 +25,7 @@ Community Contribution: <a href='http://143.89.224.6:2436/'><img src='https://im
 
 ## 💥 News 💥
 
-[2025.02.11] Our inference code for T2A is released with instructions.
+[2025.02.11] Our inference code for T2A is released with instructions. Our paper has been selected as the **spotlight** in ICLR!
 
 [2025.01.24] Our preview version of BEWO-1M is released in <a href='https://github.com/PeiwenSun2000/Both-Ears-Wide-Open/tree/main/datasets'><img src='https://img.shields.io/badge/Dataset-BEWO--1M-green'></a> with instructions.
 
