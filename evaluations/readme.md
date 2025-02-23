@@ -60,3 +60,28 @@ The script will generate:
 ## License
 
 MIT
+
+# Reference
+
+If you find this repo useful, please cite our papers:
+
+```
+@article{sun2024both,
+  title={Both Ears Wide Open: Towards Language-Driven Spatial Audio Generation},
+  author={Sun, Peiwen and Cheng, Sitong and Li, Xiangtai and Ye, Zhen and Liu, Huadai and Zhang, Honggang and Xue, Wei and Guo, Yike},
+  journal={arXiv preprint arXiv:2410.10676},
+  year={2024}
+}
+```
+
+Please also cite the previous paper if you use the code in this repo. Thanks again for their great work.
+```
+@inproceedings{chen2022sound,
+  title={Sound localization by self-supervised time delay estimation},
+  author={Chen, Ziyang and Fouhey, David F and Owens, Andrew},
+  booktitle={European Conference on Computer Vision},
+  pages={489--508},
+  year={2022},
+  organization={Springer}
+}
+```
