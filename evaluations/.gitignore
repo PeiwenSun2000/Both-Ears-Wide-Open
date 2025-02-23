@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+/checkpoints/*
+!/checkpoints/*.md
+!/checkpoints/*.py
+!/checkpoints/*.txt
+
+
+/results/*
+
+/models/*.tar
+/models/*.zip
+
+# Ignore CSV files
+*.csv
+*.pkl
+*.png
+*.wav
+*.mp4
+
+# Ignore temp directories
+temp_1/
+temp_2/
+.vscode/
+# Ignore feats directory
+feats/

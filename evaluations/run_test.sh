@@ -1,0 +1,1 @@
+./scripts/visualization_video.sh test .
