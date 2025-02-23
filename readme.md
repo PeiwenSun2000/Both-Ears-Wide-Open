@@ -129,6 +129,9 @@ python gpt_induction.py --prompt "a dog is barking." --device cuda:0 --manual Tr
 python gpt_induction.py --prompt "a dog is barking." --device cuda:0 --manual True --init_direction 1 --final_direction 5 --moving 1
 ```
 
+# Evaluation
+
+Please refer to `./evaluations` or [here](https://github.com/PeiwenSun2000/Both-Ears-Wide-Open/tree/main/evaluations)
 
 # Reference
 
