@@ -7,7 +7,7 @@ This tool automates the process of analyzing Interaural Time Difference (ITD) be
 
 Follow the installation of [StereoCRW](https://github.com/IFICL/stereocrw) and [AudioLDM_eval](https://github.com/haoheliu/audioldm_eval) in the same enveronment.
 
-(or refer to the [environment.yml](environment.yml) file.)
+(or refer to the [environment.yml](https://github.com/PeiwenSun2000/Both-Ears-Wide-Open/blob/main/evaluations/environment.yml) file.)
 
 
 ## Usage
