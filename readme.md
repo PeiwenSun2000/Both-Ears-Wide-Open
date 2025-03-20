@@ -12,6 +12,7 @@ Community Contribution: <a href='http://143.89.224.6:2436/'><img src='https://im
 <a href='https://github.com/PeiwenSun2000/Both-Ears-Wide-Open/tree/main/datasets'><img src='https://img.shields.io/badge/Dataset-BEWO--1M-green'></a>
 <a href='todo'><img src='https://img.shields.io/badge/ModelScope-Checkpoint-blueviolet'></a>
 <a href='https://arxiv.org/abs/2410.10676'><img src='https://img.shields.io/badge/Paper-PDF-red'></a>
+<a href='https://huggingface.co/datasets/spw2000/BEWO-1M'><img src='https://img.shields.io/badge/Dataset-Huggingface-yellow'></a>
 </div>
 
 ## Outlines
@@ -35,7 +36,7 @@ Community Contribution: <a href='http://143.89.224.6:2436/'><img src='https://im
 
 ## Overall Structure
 
-*  Dataset: [Data instruction for BEWO](https://github.com/PeiwenSun2000/Both-Ears-Wide-Open/tree/main/datasets)
+*  Dataset: [Data instruction for BEWO](https://github.com/PeiwenSun2000/Both-Ears-Wide-Open/tree/main/datasets) <a href='https://huggingface.co/datasets/spw2000/BEWO-1M'><img src='https://img.shields.io/badge/Dataset-Huggingface-yellow'></a>
 *  Inference: [Inference code for BEWO](https://github.com/PeiwenSun2000/Both-Ears-Wide-Open/tree/main/models)
 *  ITD Evaluation: [Evaluation code for BEWO](https://github.com/PeiwenSun2000/Both-Ears-Wide-Open/tree/main/evaluations)
 
