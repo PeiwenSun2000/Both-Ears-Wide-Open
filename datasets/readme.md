@@ -166,7 +166,8 @@ BEWO_1M
 
 🟣**Click (for Evaluation Only)**: Available at [Zenodo](https://zenodo.org/records/12970978/files/RefAVSBench.tar.gz?download=1) or [Baidu Disk](https://pan.baidu.com/s/1UJjtn3KKcpKAMdE6vOPFvQ?pwd=eccv) -->
 
-We released the temporary version of BEWO-1M, which includes text-related data. We are still seeking better integration and organization of our dataset.
+
+Huggingface Space: https://huggingface.co/datasets/spw2000/BEWO-1M
 
 Baidu: https://pan.baidu.com/s/1KEnlCGadhd_51vPWjrF5fQ?pwd=temp
 Password: temp
