@@ -60,10 +60,10 @@ The dataset is provided in `JSONL` format, with each line representing one data 
   - Example: `[0, 0.28]`.
 
 - **`raw_start`** and **`raw_end`**: Indices representing the spatial direction of the audio source.  
-  - Example: `raw_start: [3, 5]` (where `3` is directly in front, and `5` is directly to the right).
+  - Example: `raw_start: [3, 5]` (where `1` is directly to the left, `3` is directly in front, and `5` is directly to the right).
 
 - **`start_angle`** and **`end_angle`**: Angles of the audio source relative to the microphone at the start and end of the clip.  
-  - Example: `start_angle: [66.91, 13.79]`.  
+  - Example: `start_angle: [66.91, 13.79]`.  (where `0` is directly to the right, `90` is directly in front, and `180` is directly to the left). 
 
 - **`raw_speed`**: Descriptive labels for the speed of the audio source.  
   - Example: `["still", "moderate"]`.
