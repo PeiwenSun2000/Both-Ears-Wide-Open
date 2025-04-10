@@ -157,7 +157,7 @@ Please also cite stable-audio-tools paper if you use the code in this repo. Than
 }
 ```
 
-For image-related generation, we kindly refer to [VLT5](https://github.com/j-min/VL-T5).
+For image-related generation, we kindly refer to [VLT5](https://github.com/j-min/VL-T5) as the encoder and aligner.
 
 ```
 @inproceedings{cho2021unifying,
