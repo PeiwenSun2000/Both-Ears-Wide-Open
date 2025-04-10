@@ -1,4 +1,4 @@
-# BEWO-1M: Open Source Spatial Audio Dataset
+ # BEWO-1M: Open Source Spatial Audio Dataset
 
 ## Introduction
 
@@ -123,49 +123,13 @@ BEWO_1M
 ├── BEWO_RW_Audio_v1
 ├── BEWO_RW_Annotation_v1
 │   └── BEWO_RW_Annotation_v1_meta.csv
-├── BEWO_AIP_IA_v1
-│   ├── image_test_matched
-│   ├── image_train_matched (find in Coco2017 from triplet_*.csv)
-│   ├── human_test.csv
-│   ├── triplet_0.9.csv (for training option)
-│   └── triplet_0.85.csv (for training option)
-├── BEWO_BBox_v1 (for evaluation only)
-├── BEWO_Click_v1 (for evaluation only)
+├── BEWO_AIP_IA_v1 (vision related dataset)
+│   ├── image_data (meta for training and image for testing)
+│   └── interactive_test_data (image and meta for testing)
 └── readme.md
 ```
 
 ## Download Link
-
-<!-- 🚀**README**: Please refer to [Github](https://github.com/PeiwenSun2000/Both-Ears-Wide-Open) for usage.
-
-🟠**SS-set (Audio)**: Available at [Zenodo](https://zenodo.org/records/12970978/files/RefAVSBench.tar.gz?download=1) (161GB) or [Baidu Disk](https://pan.baidu.com/s/1eVndQwL5PkjQj9CHEn7s7g?pwd=eccv) (161GB)
-
-🟠**SS-set (Annotation)**: Available at [Zenodo](https://zenodo.org/records/12970978/files/RefAVSBench.tar.gz?download=1) or [Baidu Disk](https://pan.baidu.com/s/1UJjtn3KKcpKAMdE6vOPFvQ?pwd=eccv)
-
-🟢**SD-set (Audio)**: Available at [Zenodo](https://zenodo.org/records/12970978/files/RefAVSBench.tar.gz?download=1) (92GB) or [Baidu Disk](https://pan.baidu.com/s/1eVndQwL5PkjQj9CHEn7s7g?pwd=eccv) (92GB)
-
-🟢**SD-set (Annotation)**: Available at [Zenodo](https://zenodo.org/records/12970978/files/RefAVSBench.tar.gz?download=1) or [Baidu Disk](https://pan.baidu.com/s/1UJjtn3KKcpKAMdE6vOPFvQ?pwd=eccv)
-
-🔵**DS-set (Audio)**: Available at [Zenodo](https://zenodo.org/records/12970978/files/RefAVSBench.tar.gz?download=1) (113GB) or [Baidu Disk](https://pan.baidu.com/s/1eVndQwL5PkjQj9CHEn7s7g?pwd=eccv) (113GB)
-
-🔵**DS-set (Annotation)**: Available at [Zenodo](https://zenodo.org/records/12970978/files/RefAVSBench.tar.gz?download=1) or [Baidu Disk](https://pan.baidu.com/s/1UJjtn3KKcpKAMdE6vOPFvQ?pwd=eccv)
-
-🔴**Mix-set (Audio)**: Available at [Zenodo](https://zenodo.org/records/12970978/files/RefAVSBench.tar.gz?download=1) (150GB) or [Baidu Disk](https://pan.baidu.com/s/1eVndQwL5PkjQj9CHEn7s7g?pwd=eccv) (150GB)
-
-🔴**Mix-set (Annotation)**: Available at [Zenodo](https://zenodo.org/records/12970978/files/RefAVSBench.tar.gz?download=1) or [Baidu Disk](https://pan.baidu.com/s/1UJjtn3KKcpKAMdE6vOPFvQ?pwd=eccv)
-
-🟡**RW-set (Audio for Evaluation Only)**: Available at [Zenodo](https://zenodo.org/records/12970978/files/RefAVSBench.tar.gz?download=1) (16.1GB) or [Baidu Disk](https://pan.baidu.com/s/1eVndQwL5PkjQj9CHEn7s7g?pwd=eccv) (16.1GB)
-
-🟡**RW-set (Annotation for Evaluation Only)**: Available at [Zenodo](https://zenodo.org/records/12970978/files/RefAVSBench.tar.gz?download=1) or [Baidu Disk](https://pan.baidu.com/s/1UJjtn3KKcpKAMdE6vOPFvQ?pwd=eccv)
-
-🟤**Audio-Image Pairs (Audio and Image)**: Available at [Zenodo](https://zenodo.org/records/12970978/files/RefAVSBench.tar.gz?download=1) (16.1GB) or [Baidu Disk](https://pan.baidu.com/s/1eVndQwL5PkjQj9CHEn7s7g?pwd=eccv) (16.1GB)
-
-🟤**Audio-Image Pairs (Annotation)**: Available at [Zenodo](https://zenodo.org/records/12970978/files/RefAVSBench.tar.gz?download=1) or [Baidu Disk](https://pan.baidu.com/s/1UJjtn3KKcpKAMdE6vOPFvQ?pwd=eccv)
-
-🟣**Bounding Box (for Evaluation Only)**: Available at [Zenodo](https://zenodo.org/records/12970978/files/RefAVSBench.tar.gz?download=1) or [Baidu Disk](https://pan.baidu.com/s/1UJjtn3KKcpKAMdE6vOPFvQ?pwd=eccv)
-
-🟣**Click (for Evaluation Only)**: Available at [Zenodo](https://zenodo.org/records/12970978/files/RefAVSBench.tar.gz?download=1) or [Baidu Disk](https://pan.baidu.com/s/1UJjtn3KKcpKAMdE6vOPFvQ?pwd=eccv) -->
-
 
 Huggingface Space: https://huggingface.co/datasets/spw2000/BEWO-1M
 
