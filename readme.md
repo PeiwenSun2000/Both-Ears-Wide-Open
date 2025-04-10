@@ -156,3 +156,16 @@ Please also cite stable-audio-tools paper if you use the code in this repo. Than
   year={2024}
 }
 ```
+
+For image-related generation, we kindly refer to [VLT5](https://github.com/j-min/VL-T5).
+
+```
+@inproceedings{cho2021unifying,
+  title={Unifying vision-and-language tasks via text generation},
+  author={Cho, Jaemin and Lei, Jie and Tan, Hao and Bansal, Mohit},
+  booktitle={International Conference on Machine Learning},
+  pages={1931--1942},
+  year={2021},
+  organization={PMLR}
+}
+```
