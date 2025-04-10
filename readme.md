@@ -130,6 +130,8 @@ python gpt_induction.py --prompt "a dog is barking." --device cuda:0 --manual Tr
 python gpt_induction.py --prompt "a dog is barking." --device cuda:0 --manual True --init_direction 1 --final_direction 5 --moving 1
 ```
 
+For image-related generation, we kindly refer to [VLT5](https://github.com/j-min/VL-T5) as the encoder and aligner.
+
 # Evaluation
 
 Please refer to `./evaluations` or [here](https://github.com/PeiwenSun2000/Both-Ears-Wide-Open/tree/main/evaluations)
@@ -154,18 +156,5 @@ Please also cite stable-audio-tools paper if you use the code in this repo. Than
   author={Evans, Zach and Parker, Julian D and Carr, CJ and Zukowski, Zack and Taylor, Josiah and Pons, Jordi},
   journal={arXiv preprint arXiv:2407.14358},
   year={2024}
-}
-```
-
-For image-related generation, we kindly refer to [VLT5](https://github.com/j-min/VL-T5) as the encoder and aligner.
-
-```
-@inproceedings{cho2021unifying,
-  title={Unifying vision-and-language tasks via text generation},
-  author={Cho, Jaemin and Lei, Jie and Tan, Hao and Bansal, Mohit},
-  booktitle={International Conference on Machine Learning},
-  pages={1931--1942},
-  year={2021},
-  organization={PMLR}
 }
 ```
