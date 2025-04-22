@@ -26,6 +26,8 @@ Community Contribution: <a href='http://143.89.224.6:2436/'><img src='https://im
 
 ## 💥 News 💥
 
+[2025.04.22] Our work on visual guided spatial audio generation is released in <a href='https://arxiv.org/abs/2504.14906'><img src='https://img.shields.io/badge/Paper-PDF-red'></a>
+
 [2025.02.11] Our inference code for T2A is released with instructions. Our paper has been selected as the **spotlight** in ICLR!
 
 [2025.01.24] Our preview version of BEWO-1M is released in <a href='https://github.com/PeiwenSun2000/Both-Ears-Wide-Open/tree/main/datasets'><img src='https://img.shields.io/badge/Dataset-BEWO--1M-green'></a> with instructions.
