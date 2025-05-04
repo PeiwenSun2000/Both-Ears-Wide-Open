@@ -26,6 +26,8 @@ Community Contribution: <a href='http://143.89.224.6:2436/'><img src='https://im
 
 ## 💥 News 💥
 
+[2025.05.03] Our work on visual guided spatial audio generation <a href='https://arxiv.org/abs/2504.14906'><img src='https://img.shields.io/badge/Paper-PDF-red'></a> is accepted by ICML 2025. See you in Vancouver.
+
 [2025.04.22] Our work on visual guided spatial audio generation is released in <a href='https://arxiv.org/abs/2504.14906'><img src='https://img.shields.io/badge/Paper-PDF-red'></a>
 
 [2025.02.11] Our inference code for T2A is released with instructions. Our paper has been selected as the **spotlight** in ICLR!
