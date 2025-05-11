@@ -76,11 +76,11 @@ pip install -r requirements.txt --no-dependencies
 
 # Model Gallery
 
-| Model           | GDrive      | Detail                                            |
+| Model           | 🤗 HF      | Detail                                            |
 |-----------------|----------|---------------------------------------------------|
-| BEWO_nl.ckpt    | [link](https://drive.google.com/file/d/1mSL6OWsobZJppJA7flCbvmMMi2N_y7wc/view?usp=sharing) |Training with natural language only (with direction description in the prompt)               |
-| BEWO_attri.ckpt | [link](https://drive.google.com/file/d/1tsOkGIL6Bgnp_m9PQA0t-I4fbDwhlfd-/view?usp=sharing) |Training with induction attributes only (no direction description in the prompt)           |
-| BEWO_mix.ckpt   | [link](https://drive.google.com/file/d/1KupndVdBAHE0oC7RAJO7d-YKLBCw8a1M/view?usp=sharing) |Training with both natural language and attributes (whatever in the prompt) |
+| BEWO_nl.ckpt    | [link](https://huggingface.co/spw2000/bewo-1m/resolve/main/BEWO_nl.ckpt) |Training with natural language only (with direction description in the prompt)               |
+| BEWO_attri.ckpt | [link](https://huggingface.co/spw2000/bewo-1m/resolve/main/BEWO_attri.ckpt) |Training with induction attributes only (no direction description in the prompt)           |
+| BEWO_mix.ckpt   | [link](https://huggingface.co/spw2000/bewo-1m/resolve/main/BEWO_mix.ckpt) |Training with both natural language and attributes (whatever in the prompt) |
 
 # Usage
 
