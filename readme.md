@@ -138,7 +138,9 @@ For image-related generation, we kindly refer to [VLT5](https://github.com/j-min
 
 # Evaluation
 
-Please refer to `./evaluations` or [here](https://github.com/PeiwenSun2000/Both-Ears-Wide-Open/tree/main/evaluations)
+Evaluation for ITD: Please refer to `./evaluations` or [here](https://github.com/PeiwenSun2000/Both-Ears-Wide-Open/tree/main/evaluations)
+
+Evaluation for 1-channel T2A: Please refer to [MAA](https://github.com/Text-to-Audio/Make-An-Audio))
 
 # Reference
 
